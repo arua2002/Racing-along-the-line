@@ -1,8 +1,12 @@
 #include "Yahboom_8CH_Line.hpp"
 // === ПИНЫ МОТОРОВ ===
-const int AIN1 = 19, AIN2 = 18, PWMA = 21;
-const int BIN1 = 4, BIN2 = 2, PWMB = 15;
-const int STBY = 5;
+const int AIN1 = 19;
+const int AIN2 = 15;
+const int PWMA = 23;
+const int BIN1 = 5;
+const int BIN2 = 4;
+const int PWMB = 2;
+const int STBY = 18;
 // === НАСТРОЙКИ ===
 int base_speed = 100;
 float Kp = 0.5;
